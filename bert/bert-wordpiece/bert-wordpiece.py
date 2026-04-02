@@ -32,7 +32,7 @@ class WordPieceTokenizer:
         prefix = "##"
         cur = ""
 
-        while lt<(rt-1):
+        while lt<rt:
 
             cur = word[lt:rt]
             if lt != 0:
